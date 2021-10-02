@@ -21,12 +21,3 @@ public class Question8 {
     input.close();
   }
 }
-
-
-
-
-
-
-
-
-

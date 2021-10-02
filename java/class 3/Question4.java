@@ -27,8 +27,5 @@ public class Question4{
     
 
     System.out.println("The total value of your coins comes out to: $" + String.format("%.2f", total));
-
-
   }
-
 }

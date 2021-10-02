@@ -13,6 +13,5 @@ public class Question3 {
       System.out.println("The second number cannot be zero.");
     }
     input.close();
-
   }
 }

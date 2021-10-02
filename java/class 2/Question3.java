@@ -6,6 +6,5 @@ public class Question3{
     System.out.println(Math.tan(Math.PI/2)); //Java: 1.633123935319537E16
     System.out.println(Math.tan(Math.PI));  //Java: -1.2246467991473532E-16
     //Java outputs these values because Math.PI is not an exact value
-    
   }
 }

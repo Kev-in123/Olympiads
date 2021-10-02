@@ -8,6 +8,5 @@ public class Question2{
     input.close();
     double pounds = kilograms*2.20462;
     System.out.println("The equivalent amount in pounds is " + pounds + "lb");
-    
   }
 }

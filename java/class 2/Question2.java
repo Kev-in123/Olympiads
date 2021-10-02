@@ -8,6 +8,5 @@ public class Question2{
     System.out.println(Math.tan(Math.PI/4));
     System.out.println(Math.tan(Math.PI/2));
     System.out.println(Math.tan(Math.PI));
-
   }
 }

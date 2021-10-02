@@ -15,7 +15,6 @@ public class Question3{
 
     Integer integer_result = (int) (num1/num2);
     System.out.println(num1 + " divided by " + num2 + " is " + (num1 / num2));
-    System.out.println(num1 + " goes into " + num2 + integer_result + " times with a remander of " + (num1 % num2));
-    
+    System.out.println(num1 + " goes into " + num2 + " " +  integer_result + " times with a remander of " + (num1 % num2));
   }
 }

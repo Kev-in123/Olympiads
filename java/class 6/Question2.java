@@ -5,8 +5,3 @@ public class Question2 {
     }
   }
 }
-
-
-
-
-

@@ -10,5 +10,4 @@ public class Question1 {
     }
     input.close();
   }
-
 }

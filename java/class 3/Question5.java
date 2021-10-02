@@ -12,7 +12,5 @@ public class Question5{
       num /= 10;
     }
     System.out.println("The sum of the digits is: " + sum);
-  
-
   }
 }

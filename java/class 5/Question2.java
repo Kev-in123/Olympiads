@@ -7,6 +7,5 @@ public class Question2 {
     int age = input.nextInt();
     System.out.println(age >= 18? "Access granted": "You are too young to go beyond this point" );
     input.close();
-    
   }
 }

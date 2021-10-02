@@ -11,7 +11,3 @@ public class Question3 {
     s.close();
   }
 }
-
-
-
-
