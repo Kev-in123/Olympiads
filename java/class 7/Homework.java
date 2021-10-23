@@ -4,7 +4,7 @@ public class Homework {
   }
 
   public static double sphere_volume(double radius) {
-    return radius * radius * raduis * 4/3 * Math.PI;
+    return radius * radius * radius * 4/3 * Math.PI;
   }
 
   public static void main(String []args) {
@@ -12,7 +12,7 @@ public class Homework {
     + circle_area(4.8));
 
     System.out.println("The volume of a sphere with a radius of 3.2 is "
-    + sphere_area(3.2));
+    + sphere_volume(3.2));
   }
 }
 
