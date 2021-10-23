@@ -3,7 +3,7 @@ public class Homework {
     return radius * radius * Math.PI;
   }
 
-  public static double sphere_ volume(double radius) {
+  public static double sphere_volume(double radius) {
     return radius * radius * raduis * 4/3 * Math.PI;
   }
 
