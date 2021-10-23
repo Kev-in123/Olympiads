@@ -7,7 +7,7 @@ public class Homework {
     return radius * radius * radius * 4/3 * Math.PI;
   }
 
-  public static void main(String []args) {
+  public static void main(String[] args) {
     System.out.println("The area of a circle with a radius of 4.8 is "
     + circle_area(4.8));
 
