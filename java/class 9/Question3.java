@@ -1,12 +1,16 @@
+import java.util.Scanner;
+
 public class Question3 {
   public static void main(String[] args) { 
+    Scanner s = new Scanner(System.in);
     int[] numbers = new int[5];
     for(int i = 0; i < 5; i++) {
       System.out.print("Enter a number: ");
-      numbers[i] = Integer.parseInt(System.console().readLine());
+      numbers[i] = s.nextInt();
     }   
     printNums(numbers);
     smallest(numbers);
+    s.close();
   }
   public static void printNums(int[] arr) {
     for (int i: arr) {
