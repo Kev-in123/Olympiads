@@ -1,7 +1,4 @@
-import java.util.ArrayList;
-import java.util.Scanner;
-import java.util.List;
-import java.util.Collections;
+import java.util.*;
 
 public class Homework {
   public static void main(String[] args) {
@@ -26,32 +23,27 @@ public class Homework {
             System.out.println((i + 1) + ": " + todo.get(i));
           }
         }
-
       } else if (cmd.startsWith("remove")) {
         index = Integer.parseInt(cmd.substring(7)) - 1;
         item = todo.get(index);
         todo.remove(item);
-
       } else if (cmd.equals("quit")) {
         break;
-
       } else if (cmd.startsWith("random")) {
         todo = new ArrayList<String>(todo);
         Collections.shuffle(todo);
-
       } else if (cmd.startsWith("move")) {
         index = Integer.parseInt(cmd.substring(5, 6)) - 1;
         index2 = Integer.parseInt(cmd.substring(7)) - 1;
         String temp = todo.get(index);
         todo.set(index, todo.get(index2));
         todo.set(index2, temp);
-
       } else if (cmd.startsWith("update")) {
-        index = Integer.parseInt(cmd.substring(8)) - 1;
-        item = input.nextLine();
+        String[] items = cmd.split(" ");
+        index = Integer.parseInt(items[1]) - 1;
+        item = items[2];
         todo.set(index, item);
       }
-
     }
     input.close();
   }
