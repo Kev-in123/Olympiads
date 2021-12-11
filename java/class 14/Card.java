@@ -1,4 +1,3 @@
-
 public class Card {
 
 	final static String SPADE = "Spade";
